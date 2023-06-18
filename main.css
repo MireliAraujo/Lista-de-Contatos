@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: rgb(127, 163, 241);
+    padding: 150px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+#formulario {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+form input{
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+form button{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 50px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+}
+
+table th {
+    padding: 16px;
+
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
